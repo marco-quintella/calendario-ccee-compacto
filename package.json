@@ -6,7 +6,6 @@
   "cordovaId": "br.com.mqdev.eventos-ccee",
   "author": "'Marco <'2om.marco.quintella@gmail.com'>",
   "private": true,
-  "proxy": "http://api.teste.com.br/v1",
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0"
