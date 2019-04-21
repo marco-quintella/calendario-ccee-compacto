@@ -33,7 +33,7 @@ export default {
         .then(response => {
           this.calendario = this.calendario + '<br><br>' + response.data
         })
-        .catch(error => console.error(error))
+        .catch(error => { this.calendario = this.calendario + '<br><br>' + error })
     }
   }
 }
